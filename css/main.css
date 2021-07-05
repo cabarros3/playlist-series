@@ -1,0 +1,73 @@
+/* CSS HEX */
+:root {
+    /*Friends*/
+    --old-lavender: #6C5D7Aff;
+    --earth-yellow: #C9974Eff;
+    /*Modern Family*/
+    --steel-teal: #6492A2ff;
+    --flame: #E84D13ff;
+    /*Brooklyn 99*/
+    --aureolin: #FCF101ff;
+    --indigo-dye: #01415Aff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:center;
+    padding-left: 10%;
+}
+
+.cabecalho h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+}
+
+.s-friends{
+    background-color: var(--old-lavender);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.f-img img{
+    width: 500px;
+    margin-left: 10%;
+}
+
+.f-conteudo{
+    margin-left: 10%;
+} 
+
+.s-mfamily{
+    background-color: var(--flame);
+    width: 100%;
+    height: 800px;
+}
+
+.s-b99{
+    background-color: var(--aureolin);
+    width: 100%;
+    height: 800px;
+}
+
+.rodape{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
